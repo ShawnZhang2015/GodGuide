@@ -6,7 +6,7 @@
   "_duration": 0,
   "sample": 60,
   "speed": 1,
-  "wrapMode": 1,
+  "wrapMode": 0,
   "curveData": {
     "paths": {
       "mask": {
@@ -41,6 +41,16 @@
               }
             ]
           }
+        }
+      },
+      "loading": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
         }
       }
     }

@@ -13,8 +13,9 @@ cc.Class({
         totalCount: 0
     },
 
-    onLoad: function () {
+    init: function (home) {
         this.heroSlots = [];
+        this.home = home;
         for (let i = 0; i < this.totalCount; ++i) {
             let heroSlot = this.addHeroSlot();
             this.heroSlots.push(heroSlot);
@@ -27,8 +28,13 @@ cc.Class({
         return heroSlot;
     },
 
-    show: function (isShow) {
-        if (isShow) {
-        }
+    show: function () {
+        this.node.emit('fade-in');
+        this.home.toggleHomeBtns(false);
+    },
+
+    hide: function () {
+        this.node.emit('fade-out');
+        this.home.toggleHomeBtns(true);
     },
 });
