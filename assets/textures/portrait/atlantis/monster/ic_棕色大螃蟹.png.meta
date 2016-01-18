@@ -1,0 +1,28 @@
+{
+  "ver": "1.0.0",
+  "uuid": "5226d022-edda-45d9-9230-9945a1a19af9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "ic_棕色大螃蟹": {
+      "ver": "1.0.2",
+      "uuid": "b8b94e07-2eae-499f-a1b9-40074a157ac9",
+      "rawTextureUuid": "5226d022-edda-45d9-9230-9945a1a19af9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2.5,
+      "offsetY": -4.5,
+      "trimX": 24,
+      "trimY": 35,
+      "width": 107,
+      "height": 89,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

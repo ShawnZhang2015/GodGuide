@@ -1,0 +1,28 @@
+{
+  "ver": "1.0.0",
+  "uuid": "59b9d9c6-7c1e-4cd9-aaa9-5c5dac2d5081",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "indiwarrior_red": {
+      "ver": "1.0.2",
+      "uuid": "fb390786-e25e-4bb9-a72b-b9b0c5f2a8b8",
+      "rawTextureUuid": "59b9d9c6-7c1e-4cd9-aaa9-5c5dac2d5081",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6,
+      "offsetY": -1,
+      "trimX": 34,
+      "trimY": 31,
+      "width": 94,
+      "height": 90,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "sub_fold",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.25,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Widget": {
+        "bottom": [
+          {
+            "frame": 0,
+            "value": 139.5,
+            "curve": [
+              0.46,
+              -0.31,
+              0.6,
+              1.86
+            ]
+          },
+          {
+            "frame": 0.25,
+            "value": 44.5
+          }
+        ]
+      }
+    },
+    "paths": {
+      "btn_expand_slot/btn_fold": {
+        "props": {},
+        "comps": {
+          "cc.Button": {}
+        }
+      },
+      "btn_expand_slot/btn_expand": {
+        "props": {},
+        "comps": {
+          "cc.Button": {}
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.25,
+      "func": "onFinishAnim",
+      "params": [
+        true
+      ]
+    }
+  ]
+}
