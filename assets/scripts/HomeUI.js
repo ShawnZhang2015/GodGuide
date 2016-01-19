@@ -1,4 +1,10 @@
 const BackPackUI = require('BackPackUI');
+const ShopUI = require('ShopUI');
+
+const PanelType = cc.Enum({
+    Home: -1,
+    Shop: -1,
+});
 
 cc.Class({
     extends: cc.Component,
@@ -15,13 +21,16 @@ cc.Class({
         backPackUI: {
             default: null,
             type: BackPackUI
-        }
+        },
+        shopUI: ShopUI
     },
 
     // use this for initialization
     onLoad: function () {
+        this.curPanel = PanelType.Home;
         this.menuAnim.play('menu_reset');
         this.backPackUI.init(this);
+        this.shopUI.init(this, PanelType.Shop);
     },
 
     start: function () {
@@ -39,9 +48,20 @@ cc.Class({
                 cc.eventManager.resumeTarget(group, true);
             }
         }
-    }
+    },
 
+    gotoShop: function () {
+        if (this.curPanel !== PanelType.Shop) {
+            this.shopUI.show();
+        }
+    },
 
+    gotoHome: function () {
+        if (this.curPanel === PanelType.Shop) {
+            this.shopUI.hide();
+            this.curPanel = PanelType.Home;
+        }
+    },
 
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {

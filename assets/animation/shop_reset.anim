@@ -1,6 +1,6 @@
 {
   "__type__": "cc.AnimationClip",
-  "_name": "menu_reset",
+  "_name": "shop_reset",
   "_objFlags": 0,
   "_rawFiles": null,
   "_duration": 0,
@@ -19,48 +19,56 @@
           ]
         }
       },
-      "upper": {
+      "shop_figure": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -609,
+                -113.4
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Widget": {}
+        }
+      },
+      "shop_menu": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                155,
+                1018
+              ]
+            }
+          ]
+        },
         "comps": {
           "cc.Widget": {
             "top": [
               {
                 "frame": 0,
-                "value": -238
+                "value": -590.5
               }
             ]
           }
         }
       },
-      "lower": {
+      "bot_frame": {
+        "props": {},
         "comps": {
           "cc.Widget": {
             "bottom": [
               {
                 "frame": 0,
-                "value": -220
+                "value": -207
               }
             ]
           }
-        }
-      },
-      "loading": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 0,
-              "value": 255
-            }
-          ]
-        }
-      },
-      "background": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 0,
-              "value": 255
-            }
-          ]
         }
       }
     }
