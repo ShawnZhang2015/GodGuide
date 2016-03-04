@@ -29,11 +29,11 @@ cc.Class({
     onLoad: function () {
         this.curPanel = PanelType.Home;
         this.menuAnim.play('menu_reset');
-        this.backPackUI.init(this);
-        this.shopUI.init(this, PanelType.Shop);
     },
 
     start: function () {
+        this.backPackUI.init(this);
+        this.shopUI.init(this, PanelType.Shop);
         this.scheduleOnce ( function() {
             this.menuAnim.play('menu_intro');
         }.bind(this), 0.5);
