@@ -1,0 +1,102 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "tab_turn_big",
+  "_objFlags": 0,
+  "_duration": 0.2,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "width": [
+        {
+          "frame": 0,
+          "value": 120
+        },
+        {
+          "frame": 0.2,
+          "value": 160
+        }
+      ]
+    },
+    "paths": {
+      "icon": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 0.2,
+              "value": [
+                0,
+                20.3
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 0.2,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 0.2,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "arrows": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": [
+                0.22,
+                0.37,
+                0.74,
+                1.43
+              ]
+            },
+            {
+              "frame": 0.2,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": [
+                0.21,
+                0.43,
+                0.69,
+                1.47
+              ]
+            },
+            {
+              "frame": 0.2,
+              "value": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
