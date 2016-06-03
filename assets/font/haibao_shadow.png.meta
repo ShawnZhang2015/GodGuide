@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "haibao_shadow": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "5e264b9e-7d0f-44c7-aabf-2465b65f6084",
       "rawTextureUuid": "0c2bef11-b494-4511-9c56-f5195e65f929",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 4,
       "width": 249,
       "height": 119,
+      "rawWidth": 256,
+      "rawHeight": 128,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

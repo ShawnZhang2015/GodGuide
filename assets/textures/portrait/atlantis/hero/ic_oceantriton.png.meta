@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_oceantriton": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "64ce3564-0564-4dbf-ba4a-075f7664b9f3",
       "rawTextureUuid": "90332344-6f3c-4fe8-9d56-50ea7cf879ce",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 18,
       "width": 88,
       "height": 120,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

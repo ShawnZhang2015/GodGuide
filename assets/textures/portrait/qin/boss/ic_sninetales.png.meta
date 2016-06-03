@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_sninetales": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "225dcd82-7fad-4654-a0cd-10b57eb83244",
       "rawTextureUuid": "f8dbb1b3-bed5-4acb-8307-fb94ce08d0dd",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 17,
       "width": 99,
       "height": 113,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

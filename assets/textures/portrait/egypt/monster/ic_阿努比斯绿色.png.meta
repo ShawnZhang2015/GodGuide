@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_阿努比斯绿色": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "23ef28eb-7dec-4223-aad6-aea7a1fc84aa",
       "rawTextureUuid": "e9faeafe-0249-46b6-9c9f-35bceb45eb8e",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 41,
       "width": 97,
       "height": 86,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

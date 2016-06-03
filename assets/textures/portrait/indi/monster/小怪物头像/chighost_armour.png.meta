@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "chighost_armour": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "c0455398-55ae-4f36-b578-da501480c068",
       "rawTextureUuid": "97217455-06d3-4da1-a800-38e0b221a0d4",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 21,
       "width": 108,
       "height": 110,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "text_buchongtili": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "9df66bb7-e1eb-4d1c-a6da-6cd0e578351e",
       "rawTextureUuid": "d50ae28a-62c0-447a-8e0e-cd49842acfe5",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 1,
       "width": 141,
       "height": 49,
+      "rawWidth": 143,
+      "rawHeight": 51,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

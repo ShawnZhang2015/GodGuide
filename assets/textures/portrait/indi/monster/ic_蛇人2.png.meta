@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_蛇人2": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "a7788e15-02fa-402e-a1ee-eec95017ebe4",
       "rawTextureUuid": "1776e31a-cee2-44bb-9b29-fd18048c511e",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 25,
       "width": 89,
       "height": 97,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

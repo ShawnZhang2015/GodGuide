@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "indiwarrior_green": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "8d3554c2-b2b0-4096-b7b7-36773b798126",
       "rawTextureUuid": "e72f4cec-599d-4091-86b4-028fb8c3c026",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 31,
       "width": 94,
       "height": 91,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

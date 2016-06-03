@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_drakan": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "f6fe6961-655b-48ba-80dc-bc0cce892b14",
       "rawTextureUuid": "d4ef7dc6-2b19-4e99-ad09-7f6c6870d582",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 33,
       "width": 93,
       "height": 94,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

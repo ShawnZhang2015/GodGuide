@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "text_diamond_gift": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "0e5e14b7-0daf-4037-a351-3e725a74ed19",
       "rawTextureUuid": "116b799f-09ea-47ad-964a-013f0b472788",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 0,
       "width": 117,
       "height": 28,
+      "rawWidth": 117,
+      "rawHeight": 28,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

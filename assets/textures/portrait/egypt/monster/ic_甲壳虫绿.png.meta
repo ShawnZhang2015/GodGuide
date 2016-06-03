@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_甲壳虫绿": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "c64168a2-97ea-4c48-894d-16d3062d60cb",
       "rawTextureUuid": "823df80f-a173-41ca-bb1f-3219ed7425b7",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 34,
       "width": 123,
       "height": 96,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

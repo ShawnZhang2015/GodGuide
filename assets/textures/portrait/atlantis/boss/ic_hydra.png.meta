@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_hydra": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "4e48d532-ddc0-4826-ae93-0ccae9c4ab23",
       "rawTextureUuid": "fa3223bf-3ecb-41be-af59-c323ed763ce4",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 0,
       "width": 122,
       "height": 132,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

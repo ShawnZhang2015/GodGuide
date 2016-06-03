@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_pharaoh": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "dfce075c-844e-40ae-96e8-3144100cf1e2",
       "rawTextureUuid": "affaf1cb-cc9f-49bd-95d8-f91ec1ca2399",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 32,
       "width": 95,
       "height": 91,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_bloodwind": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "83b847da-54de-4634-89d8-613f9b5d2ad0",
       "rawTextureUuid": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 26,
       "width": 84,
       "height": 103,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

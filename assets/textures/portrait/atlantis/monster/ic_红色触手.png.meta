@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_红色触手": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "7b1e46f7-3a23-4da8-bc23-9d3e3b96d503",
       "rawTextureUuid": "cb7a051a-e0dd-44ad-a446-4079ed812fc9",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 34,
       "width": 60,
       "height": 92,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

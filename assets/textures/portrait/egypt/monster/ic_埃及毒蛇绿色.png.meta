@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_埃及毒蛇绿色": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "74848dc2-3b0f-4128-abb9-d449fa7941bc",
       "rawTextureUuid": "aa86a5f6-1b5d-4f39-8aac-8d4b9f646314",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 41,
       "width": 99,
       "height": 80,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

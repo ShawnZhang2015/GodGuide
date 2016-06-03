@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "txt_chuzhan": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "a8f8a128-0ad6-41b5-9ef6-bbe74b6544e6",
       "rawTextureUuid": "af48b30b-0a6c-4117-9a19-46979c28982a",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 1,
       "width": 55,
       "height": 33,
+      "rawWidth": 57,
+      "rawHeight": 35,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

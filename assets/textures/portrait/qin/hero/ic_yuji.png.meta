@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_yuji": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "d1833283-e1d6-4430-a4fc-b0447a58dab0",
       "rawTextureUuid": "93e99691-afa5-4a9c-89e8-79c0a7cd0af5",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 25,
       "width": 90,
       "height": 95,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

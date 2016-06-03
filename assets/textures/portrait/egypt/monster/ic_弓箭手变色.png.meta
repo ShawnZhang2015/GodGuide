@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_弓箭手变色": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "52e70516-5e73-4ee4-8bb4-32a897495830",
       "rawTextureUuid": "779f5916-8d99-451c-89a4-6c750ffd5f04",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 41,
       "width": 80,
       "height": 82,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

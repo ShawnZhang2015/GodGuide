@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "indiwarrior_purple": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "a1a63c03-bc65-41cf-9bd8-d1d4760cd2d0",
       "rawTextureUuid": "358e1ec6-1b8e-4857-8bc9-f102ec0fa341",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 31,
       "width": 94,
       "height": 90,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

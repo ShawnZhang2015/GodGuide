@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_塞壬女妖": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "d6d20b56-6746-421e-ae47-28bd95397e3f",
       "rawTextureUuid": "5bc5885b-d89d-4dac-acac-0435d6054b0f",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 31,
       "width": 93,
       "height": 100,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_黑色巫师": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "a284afca-e306-4113-adcd-714817ca060c",
       "rawTextureUuid": "69ee3bed-3716-4b4a-8c93-5e4d741cfc06",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 34,
       "width": 80,
       "height": 92,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

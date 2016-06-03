@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "btn_friends": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "75c59ddf-3158-432a-bc2b-afba9cc7e81c",
       "rawTextureUuid": "be19f41d-ffa0-41c5-9c87-6bc24d853502",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 5,
       "width": 91,
       "height": 105,
+      "rawWidth": 106,
+      "rawHeight": 110,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

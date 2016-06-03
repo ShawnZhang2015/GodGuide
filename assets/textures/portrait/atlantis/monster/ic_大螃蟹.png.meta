@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_大螃蟹": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "6d268125-d470-4868-a19c-41c0ae0dc17e",
       "rawTextureUuid": "6fd3a79c-d071-4705-9525-5bde517ab96e",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 35,
       "width": 106,
       "height": 89,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

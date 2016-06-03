@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_hugeshark": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "d0225151-3d54-4716-a8f0-c1b06c6436bf",
       "rawTextureUuid": "e6433f36-1fb4-42c5-8477-c8413f76232a",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 20,
       "width": 104,
       "height": 114,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

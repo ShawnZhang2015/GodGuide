@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "btn_raid": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "5c8d7351-cdbd-4376-9278-52d23319c0eb",
       "rawTextureUuid": "a129992a-64bd-4c45-bf05-e035ed1b6279",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 6,
       "width": 72,
       "height": 104,
+      "rawWidth": 83,
+      "rawHeight": 110,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

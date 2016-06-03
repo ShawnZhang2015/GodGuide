@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "text_title_goumai": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "41603f61-3b32-4243-bf00-3da66dc0b22e",
       "rawTextureUuid": "05c5cd61-47b9-4736-825d-4a3e96c8bf0e",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 2,
       "width": 177,
       "height": 56,
+      "rawWidth": 179,
+      "rawHeight": 59,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

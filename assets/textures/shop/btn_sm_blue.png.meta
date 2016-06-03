@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "btn_sm_blue": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "613e3caf-687d-43d3-9812-7fe45681c222",
       "rawTextureUuid": "20e7ac1d-8656-400c-975f-0a977e3b9da5",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 0,
       "width": 130,
       "height": 61,
+      "rawWidth": 130,
+      "rawHeight": 61,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

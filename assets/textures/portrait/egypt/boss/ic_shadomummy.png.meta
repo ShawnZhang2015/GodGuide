@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_shadomummy": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "a0e51576-9790-4a7b-b7bf-e88a5fc9a841",
       "rawTextureUuid": "6fee2d78-e49a-4624-844e-04420497b77f",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 32,
       "width": 106,
       "height": 93,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

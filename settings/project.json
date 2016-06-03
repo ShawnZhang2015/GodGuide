@@ -1,3 +1,11 @@
 {
-  "start-scene": ""
+  "start-scene": "",
+  "group-list": [
+    "default"
+  ],
+  "collision-matrix": [
+    [
+      true
+    ]
+  ]
 }

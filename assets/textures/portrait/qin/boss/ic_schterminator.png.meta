@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_schterminator": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "3773f50d-a182-4b40-8765-11268fa9fe12",
       "rawTextureUuid": "946a7e47-1937-4e6f-a0e5-8f3d743327ac",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 18,
       "width": 86,
       "height": 97,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

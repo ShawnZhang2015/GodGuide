@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_长矛兵白色": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "37339f0e-9b63-47db-b727-670dff579a28",
       "rawTextureUuid": "5260671d-de21-48e0-a4fa-66e21e067a69",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 12,
       "width": 88,
       "height": 113,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

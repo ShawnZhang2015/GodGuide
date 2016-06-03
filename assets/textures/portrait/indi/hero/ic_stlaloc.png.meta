@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_stlaloc": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "e4b42bdf-3298-4cb0-8cf2-ed6346917eee",
       "rawTextureUuid": "a6d9dca5-2004-4d75-a72b-b7a213f4e714",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 24,
       "width": 113,
       "height": 117,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

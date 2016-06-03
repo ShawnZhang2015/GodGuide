@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "att_water": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "a675e821-d7c9-4d43-8cfb-4aa0475e772e",
       "rawTextureUuid": "e6e8ced7-2bff-4f36-835c-b12d2cfd1517",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 0,
       "width": 36,
       "height": 36,
+      "rawWidth": 36,
+      "rawHeight": 36,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

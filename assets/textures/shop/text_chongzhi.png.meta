@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "text_chongzhi": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "af0ff189-f6ea-402b-bec7-930b78512f37",
       "rawTextureUuid": "0e46df5d-a9ba-476d-95c6-d5dca8c6843f",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 1,
       "width": 116,
       "height": 50,
+      "rawWidth": 118,
+      "rawHeight": 52,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

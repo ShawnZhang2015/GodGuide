@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_阿努比斯蓝色": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "d202774b-ba90-4d0b-a1fd-d934ec027d0e",
       "rawTextureUuid": "f88426b3-5e76-4865-90b7-1904d58cc3b4",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 42,
       "width": 97,
       "height": 85,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

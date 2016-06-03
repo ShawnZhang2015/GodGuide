@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_salamander": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "01c9f354-f390-4c0b-8e95-47238254b895",
       "rawTextureUuid": "026453df-ae8a-49aa-88f9-4efa42416e10",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 32,
       "width": 107,
       "height": 100,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_弓箭手": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "426ac865-42e1-469b-82c0-9493e35f610c",
       "rawTextureUuid": "431653e9-3e0a-45f9-bd1f-d6398c7488a2",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 41,
       "width": 80,
       "height": 82,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

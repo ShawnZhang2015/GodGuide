@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "txt_liuyan": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "4a62da2e-4e16-42e1-b03d-df4e853ffb1b",
       "rawTextureUuid": "f4f34005-226d-41fd-8f6c-9fcb3734f53d",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 1,
       "width": 54,
       "height": 33,
+      "rawWidth": 56,
+      "rawHeight": 35,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

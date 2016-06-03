@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "chighost_green": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "ffef9627-a009-4f39-827a-36104030ebca",
       "rawTextureUuid": "5c55f2e6-1721-4f9f-96b2-3b1b30b23701",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 21,
       "width": 105,
       "height": 110,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

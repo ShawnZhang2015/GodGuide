@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "murloc_blue": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "fd2c77c3-0000-47ae-a119-0850c9f86bc3",
       "rawTextureUuid": "19672ff4-04a5-4aca-8c28-7906c2d8b715",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 28,
       "width": 109,
       "height": 103,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

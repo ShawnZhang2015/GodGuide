@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_mermaidqueen": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "43e12858-f97d-4a14-b33a-2da5fbd5e64c",
       "rawTextureUuid": "9f76084f-009a-4f33-aa6c-d08bd9a29c01",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 19,
       "width": 95,
       "height": 108,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

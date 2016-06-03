@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_木乃伊": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "558771ac-02cf-412d-a954-bf3297097814",
       "rawTextureUuid": "1b57d4d6-082c-4a79-abc0-86c9b934ff5c",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 22,
       "width": 98,
       "height": 102,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

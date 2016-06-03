@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_土著战士": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "28e0498a-5384-459b-bd74-d18bea61a464",
       "rawTextureUuid": "79bfd558-baab-416f-8c7b-fe170bb3f0e1",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 31,
       "width": 94,
       "height": 91,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

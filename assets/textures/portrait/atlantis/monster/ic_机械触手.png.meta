@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_机械触手": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "55a02690-c6f9-4859-a72c-d86665cd5759",
       "rawTextureUuid": "c273d0b6-7ca5-4ca2-a8e1-53b9c1366680",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 29,
       "width": 65,
       "height": 97,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

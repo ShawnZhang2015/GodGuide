@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_cipacret": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "d085cdf2-636b-428b-9707-e82903152c98",
       "rawTextureUuid": "c96e50ac-ef08-432a-8658-124800b484ef",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 23,
       "width": 101,
       "height": 104,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

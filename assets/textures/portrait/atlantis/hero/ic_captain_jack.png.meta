@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_captain_jack": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "721fc724-0342-4674-b8d4-325bf4fe9cfb",
       "rawTextureUuid": "19510e5a-675e-42b2-bed5-62266eda417b",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 33,
       "width": 111,
       "height": 96,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

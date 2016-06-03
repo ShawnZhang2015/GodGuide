@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "indiwarrior_knife": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "be1e2554-9ffd-4e7e-8e87-aab04f08cb87",
       "rawTextureUuid": "4d2cd84d-fde9-498d-8261-68f590bc9b09",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 31,
       "width": 94,
       "height": 91,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_机械炮台龟": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "161ced1e-d156-401d-913b-e280722f2c35",
       "rawTextureUuid": "2c84d042-ef14-43b8-9650-4b6155790a83",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 49,
       "width": 68,
       "height": 63,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

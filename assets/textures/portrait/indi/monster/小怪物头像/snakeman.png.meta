@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "snakeman": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "564a5caa-74fc-486b-82f5-ae95ba606f02",
       "rawTextureUuid": "fdce928c-b25b-4482-8530-c45587043696",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 27,
       "width": 85,
       "height": 95,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

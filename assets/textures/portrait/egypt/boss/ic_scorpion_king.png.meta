@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_scorpion_king": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "e19e317c-cff1-4dec-86f7-00be5d6e2ee5",
       "rawTextureUuid": "339b9300-7fba-477d-a345-ca0e0fa962b9",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 28,
       "width": 80,
       "height": 106,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

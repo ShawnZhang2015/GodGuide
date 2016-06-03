@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_oceaking": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "236ec442-fd02-4b62-a6c7-58d5055f06d7",
       "rawTextureUuid": "71187f7f-36f2-4383-afc5-5d40a827013a",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 26,
       "width": 91,
       "height": 105,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

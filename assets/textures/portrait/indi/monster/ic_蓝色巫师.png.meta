@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "ic_蓝色巫师": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "f80c8f85-bf31-45bd-a8de-048bf7eed707",
       "rawTextureUuid": "db68e56f-b77d-41d1-b5bb-f600a7df3de7",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 34,
       "width": 81,
       "height": 92,
+      "rawWidth": 150,
+      "rawHeight": 150,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
