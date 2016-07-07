@@ -29,6 +29,7 @@ cc.Class({
     },
 
     show: function () {
+        this.node.active = true;
         this.node.emit('fade-in');
         this.home.toggleHomeBtns(false);
     },
