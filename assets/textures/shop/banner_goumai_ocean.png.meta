@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "e174d60b-9c9b-4bc3-aad4-bbd8c14b2e78",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "banner_goumai_ocean": {
       "ver": "1.0.3",

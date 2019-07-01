@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "84499e83-3aaa-4e00-829b-fa02182e9ca3",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_shydra": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 1,
+      "offsetX": 1.5,
       "offsetY": 9,
-      "trimX": 15,
+      "trimX": 14,
       "trimY": 0,
-      "width": 122,
+      "width": 125,
       "height": 132,
       "rawWidth": 150,
       "rawHeight": 150,

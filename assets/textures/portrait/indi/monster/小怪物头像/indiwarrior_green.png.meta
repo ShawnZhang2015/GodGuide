@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "e72f4cec-599d-4091-86b4-028fb8c3c026",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "indiwarrior_green": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 6,
+      "offsetX": 6.5,
       "offsetY": -1.5,
       "trimX": 34,
       "trimY": 31,
-      "width": 94,
+      "width": 95,
       "height": 91,
       "rawWidth": 150,
       "rawHeight": 150,

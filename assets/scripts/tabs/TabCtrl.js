@@ -14,7 +14,7 @@ cc.Class({
         this.idx = tabInfo.idx;
         this.icon.spriteFrame = tabInfo.iconSF;
         this.node.on('touchstart', this.onPressed.bind(this), this.node);
-        this.arrow.scale = cc.p(0, 0);
+        this.arrow.scale = cc.v2(0, 0);
     },
 
     onPressed () {

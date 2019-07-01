@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "3b6a0bf5-4c05-457e-9928-702e3e85d0b6",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "txt_renwu": {
       "ver": "1.0.3",
@@ -14,10 +15,10 @@
       "rotated": false,
       "offsetX": 0,
       "offsetY": 0,
-      "trimX": 1,
-      "trimY": 1,
-      "width": 55,
-      "height": 33,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 57,
+      "height": 35,
       "rawWidth": 57,
       "rawHeight": 35,
       "borderTop": 0,

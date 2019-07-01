@@ -43,9 +43,9 @@ cc.Class({
         for (let i = 0; i < this.homeBtnGroups.length; ++i) {
             let group = this.homeBtnGroups[i];
             if (!enable) {
-                cc.eventManager.pauseTarget(group, true);
+                group.pauseSystemEvents(true);
             } else {
-                cc.eventManager.resumeTarget(group, true);
+                group.resumeSystemEvents(true);
             }
         }
     },

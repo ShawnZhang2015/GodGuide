@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "8967da4c-ebe7-42d7-8a89-809fada638c4",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_osiris": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 2.5,
+      "offsetX": 2,
       "offsetY": -9,
-      "trimX": 32,
+      "trimX": 31,
       "trimY": 40,
-      "width": 91,
+      "width": 92,
       "height": 88,
       "rawWidth": 150,
       "rawHeight": 150,

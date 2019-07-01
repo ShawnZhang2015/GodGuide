@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "2e295c46-f72b-4c99-8a0f-4323671811a3",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "btn_home": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": -1.5,
+      "offsetX": -2,
       "offsetY": -2,
-      "trimX": 3,
+      "trimX": 2,
       "trimY": 4,
-      "width": 75,
+      "width": 76,
       "height": 106,
       "rawWidth": 84,
       "rawHeight": 110,

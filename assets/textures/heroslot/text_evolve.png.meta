@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "14222783-36bf-4b44-9fe0-2f65d3e20067",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "text_evolve": {
       "ver": "1.0.3",
@@ -14,10 +15,10 @@
       "rotated": false,
       "offsetX": 0,
       "offsetY": 0,
-      "trimX": 1,
-      "trimY": 1,
-      "width": 73,
-      "height": 46,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 75,
+      "height": 48,
       "rawWidth": 75,
       "rawHeight": 48,
       "borderTop": 0,

@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "affaf1cb-cc9f-49bd-95d8-f91ec1ca2399",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_pharaoh": {
       "ver": "1.0.3",
@@ -12,12 +13,12 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 2.5,
-      "offsetY": -2.5,
+      "offsetX": 3,
+      "offsetY": -3,
       "trimX": 30,
       "trimY": 32,
-      "width": 95,
-      "height": 91,
+      "width": 96,
+      "height": 92,
       "rawWidth": 150,
       "rawHeight": 150,
       "borderTop": 0,

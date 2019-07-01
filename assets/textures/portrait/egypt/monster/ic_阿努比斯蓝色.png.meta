@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "f88426b3-5e76-4865-90b7-1904d58cc3b4",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_阿努比斯蓝色": {
       "ver": "1.0.3",
@@ -12,12 +13,12 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 2.5,
-      "offsetY": -9.5,
+      "offsetX": 3,
+      "offsetY": -10,
       "trimX": 29,
       "trimY": 42,
-      "width": 97,
-      "height": 85,
+      "width": 98,
+      "height": 86,
       "rawWidth": 150,
       "rawHeight": 150,
       "borderTop": 0,

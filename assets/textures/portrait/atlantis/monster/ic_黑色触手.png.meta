@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "6cd0aa66-4b81-42b7-95ad-1a82cc30a835",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_黑色触手": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 3,
+      "offsetX": 3.5,
       "offsetY": -5,
       "trimX": 48,
       "trimY": 34,
-      "width": 60,
+      "width": 61,
       "height": 92,
       "rawWidth": 150,
       "rawHeight": 150,

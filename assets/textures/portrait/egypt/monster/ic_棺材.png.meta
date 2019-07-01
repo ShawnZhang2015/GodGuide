@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "1b9820fb-d321-43a8-99e5-804f95347b57",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_棺材": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 2,
+      "offsetX": 2.5,
       "offsetY": 0.5,
       "trimX": 37,
       "trimY": 31,
-      "width": 80,
+      "width": 81,
       "height": 87,
       "rawWidth": 150,
       "rawHeight": 150,

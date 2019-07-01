@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "8defb5ec-4894-4a50-a9d8-eb33f64034a7",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_长矛兵蓝色": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": -2,
+      "offsetX": -1.5,
       "offsetY": 6,
       "trimX": 29,
       "trimY": 12,
-      "width": 88,
+      "width": 89,
       "height": 114,
       "rawWidth": 150,
       "rawHeight": 150,

@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "97217455-06d3-4da1-a800-38e0b221a0d4",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "chighost_armour": {
       "ver": "1.0.3",
@@ -12,12 +13,12 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 3,
-      "offsetY": -1,
+      "offsetX": 4.5,
+      "offsetY": -1.5,
       "trimX": 24,
       "trimY": 21,
-      "width": 108,
-      "height": 110,
+      "width": 111,
+      "height": 111,
       "rawWidth": 150,
       "rawHeight": 150,
       "borderTop": 0,

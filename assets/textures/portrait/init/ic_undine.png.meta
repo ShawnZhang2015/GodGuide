@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "9df40ffb-41f7-451a-a583-58a1275a176b",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_undine": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 5.5,
+      "offsetX": 6,
       "offsetY": -8,
       "trimX": 29,
       "trimY": 34,
-      "width": 103,
+      "width": 104,
       "height": 98,
       "rawWidth": 150,
       "rawHeight": 150,

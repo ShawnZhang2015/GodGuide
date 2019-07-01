@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "ed6b4af8-5bb9-4714-b473-9132e3e8eb65",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_蛇人1": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": -1.5,
+      "offsetX": -2,
       "offsetY": 0.5,
-      "trimX": 32,
+      "trimX": 31,
       "trimY": 29,
-      "width": 83,
+      "width": 84,
       "height": 91,
       "rawWidth": 150,
       "rawHeight": 150,

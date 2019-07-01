@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "b9815935-3260-4973-afdd-eb2b0a93d940",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_huchcy": {
       "ver": "1.0.3",
@@ -12,12 +13,12 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 0,
-      "offsetY": 4.5,
+      "offsetX": 0.5,
+      "offsetY": 4,
       "trimX": 35,
       "trimY": 15,
-      "width": 80,
-      "height": 111,
+      "width": 81,
+      "height": 112,
       "rawWidth": 150,
       "rawHeight": 150,
       "borderTop": 0,

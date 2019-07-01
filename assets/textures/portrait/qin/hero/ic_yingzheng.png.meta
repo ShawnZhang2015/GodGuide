@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "a4408bef-a3fa-4925-91a1-050b9b477124",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_yingzheng": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": -6,
+      "offsetX": -5.5,
       "offsetY": -6,
       "trimX": 23,
       "trimY": 25,
-      "width": 92,
+      "width": 93,
       "height": 112,
       "rawWidth": 150,
       "rawHeight": 150,

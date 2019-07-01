@@ -38,14 +38,14 @@ cc.Class({
             let tab = this.tabs[i];
             if (tab.idx === idx) {
                 tab.turnBig();
-                cc.eventManager.pauseTarget(tab.node);
+                tab.node.pauseSystemEvents();
             } else if (this.curTabIdx === tab.idx) {
                 tab.turnSmall();
-                cc.eventManager.resumeTarget(tab.node);
+                tab.node.resumeSystemEvents();
             }
         }
         this.curTabIdx = idx;
-        let highlightMove = cc.moveTo(this.tabSwitchDuration, cc.p(this.curTabIdx * this.tabWidth)).easing(cc.easeQuinticActionInOut());
+        let highlightMove = cc.moveTo(this.tabSwitchDuration, cc.v2(this.curTabIdx * this.tabWidth)).easing(cc.easeQuinticActionInOut());
         this.highlight.stopAllActions();
         this.highlight.runAction(highlightMove);
         this.mainMenu.switchPanel(this.curTabIdx);

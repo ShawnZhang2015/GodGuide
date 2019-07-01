@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "52c11025-13af-4d70-98eb-085e5a9e81b6",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_蓝炮台龟": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 1.5,
+      "offsetX": 2,
       "offsetY": -5.5,
       "trimX": 43,
       "trimY": 49,
-      "width": 67,
+      "width": 68,
       "height": 63,
       "rawWidth": 150,
       "rawHeight": 150,

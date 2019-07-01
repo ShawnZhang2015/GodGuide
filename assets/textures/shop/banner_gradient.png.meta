@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "441a6473-a030-480e-b100-2f57c7d90e54",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "banner_gradient": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": -1.5,
+      "offsetX": 0,
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 178,
+      "width": 181,
       "height": 33,
       "rawWidth": 181,
       "rawHeight": 33,

@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "596c9658-1b9b-4327-b10b-2949987e6bb0",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "bg_frame": {
       "ver": "1.0.3",
@@ -14,9 +15,9 @@
       "rotated": false,
       "offsetX": 0,
       "offsetY": 0,
-      "trimX": 3,
+      "trimX": 0,
       "trimY": 0,
-      "width": 604,
+      "width": 610,
       "height": 626,
       "rawWidth": 610,
       "rawHeight": 626,

@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "41a05f93-118a-4070-9f8b-eb81d9e70334",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_mermaid": {
       "ver": "1.0.3",
@@ -13,11 +14,11 @@
       "trimThreshold": 1,
       "rotated": false,
       "offsetX": 4,
-      "offsetY": -7.5,
+      "offsetY": -8,
       "trimX": 33,
       "trimY": 35,
       "width": 92,
-      "height": 95,
+      "height": 96,
       "rawWidth": 150,
       "rawHeight": 150,
       "borderTop": 0,

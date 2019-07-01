@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "a65ccbfc-46b5-4c44-b9ed-14cd621166a9",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_shadopharaoh": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 2.5,
+      "offsetX": 3,
       "offsetY": -3.5,
       "trimX": 24,
       "trimY": 31,
-      "width": 107,
+      "width": 108,
       "height": 95,
       "rawWidth": 150,
       "rawHeight": 150,

@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "6fee2d78-e49a-4624-844e-04420497b77f",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_shadomummy": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 2,
+      "offsetX": 2.5,
       "offsetY": -3.5,
       "trimX": 24,
       "trimY": 32,
-      "width": 106,
+      "width": 107,
       "height": 93,
       "rawWidth": 150,
       "rawHeight": 150,

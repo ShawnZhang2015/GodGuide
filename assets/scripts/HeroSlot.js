@@ -1,5 +1,5 @@
 const getRandomInt = function (min, max) {
-    var ratio = cc.random0To1();
+    var ratio = Math.random();
     return min + Math.floor((max - min) * ratio);
 };
 

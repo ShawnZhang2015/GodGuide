@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "372efc23-5be5-4f8a-a45c-38dd65a60f84",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "bg_panel_paper": {
       "ver": "1.0.3",
@@ -13,11 +14,11 @@
       "trimThreshold": 1,
       "rotated": false,
       "offsetX": 0,
-      "offsetY": 0.5,
+      "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
       "width": 535,
-      "height": 183,
+      "height": 184,
       "rawWidth": 535,
       "rawHeight": 184,
       "borderTop": 65,

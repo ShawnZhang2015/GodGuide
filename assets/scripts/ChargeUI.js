@@ -15,12 +15,12 @@ cc.Class({
         this.node.active = true;
         this.node.emit('fade-in');
         this.home.toggleHomeBtns(false);
-        cc.eventManager.pauseTarget(this.parentBtns);
+        this.parentBtns.pauseSystemEvents();
     },
 
     hide: function () {
         this.node.emit('fade-out');
         this.home.toggleHomeBtns(true);
-        cc.eventManager.resumeTarget(this.parentBtns);
+        this.parentBtns.resumeSystemEvents();
     },
 });

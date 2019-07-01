@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "823df80f-a173-41ca-bb1f-3219ed7425b7",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "ic_甲壳虫绿": {
       "ver": "1.0.3",
@@ -12,11 +13,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 1.5,
+      "offsetX": 2,
       "offsetY": -7,
       "trimX": 15,
       "trimY": 34,
-      "width": 123,
+      "width": 124,
       "height": 96,
       "rawWidth": 150,
       "rawHeight": 150,
