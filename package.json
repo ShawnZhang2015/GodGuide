@@ -1,0 +1,25 @@
+{
+  "name": "demo-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocos-creator/demo-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cocos-creator/demo-ui/issues"
+  },
+  "homepage": "https://github.com/cocos-creator/demo-ui#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "babelify": "^10.0.0",
+    "lodash": "^4.17.11",
+    "shelljs": "^0.8.3"
+  }
+}

@@ -17,7 +17,7 @@
         "__id__": 2
       }
     ],
-    "_active": true,
+    "_active": false,
     "_level": 0,
     "_components": [],
     "_prefab": null,
@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.27046704595675075,
-      "y": 0.27046704595675075,
+      "x": 0.39153645833333334,
+      "y": 0.39153645833333334,
       "z": 1
     },
     "_quat": {
@@ -87,10 +87,13 @@
       }
     ],
     "_active": true,
-    "_level": 0,
+    "_level": 1,
     "_components": [
       {
         "__id__": 453
+      },
+      {
+        "__id__": 454
       }
     ],
     "_prefab": null,
@@ -1372,9 +1375,7 @@
       "__id__": 29
     },
     "_enabled": true,
-    "alignMode": 1,
-    "_wasAlignOnce": null,
-    "isAlignOnce": null,
+    "alignMode": 2,
     "_target": null,
     "_alignFlags": 45,
     "_left": 0,
@@ -1580,9 +1581,7 @@
       "__id__": 34
     },
     "_enabled": true,
-    "alignMode": 1,
-    "_wasAlignOnce": null,
-    "isAlignOnce": null,
+    "alignMode": 2,
     "_target": null,
     "_alignFlags": 4,
     "_left": 0,
@@ -2125,8 +2124,8 @@
     "target": {
       "__id__": 48
     },
-    "component": "ChargeUI",
-    "_componentId": "",
+    "component": "",
+    "_componentId": "11f1epEd5FProshh8dSXgPW",
     "handler": "show",
     "customEventData": ""
   },
@@ -2166,7 +2165,7 @@
         "__id__": 91
       }
     ],
-    "_active": true,
+    "_active": false,
     "_level": 0,
     "_components": [
       {
@@ -8012,9 +8011,7 @@
       "__id__": 37
     },
     "_enabled": true,
-    "alignMode": 1,
-    "_wasAlignOnce": null,
-    "isAlignOnce": null,
+    "alignMode": 2,
     "_target": null,
     "_alignFlags": 1,
     "_left": 0,
@@ -8224,9 +8221,7 @@
       "__id__": 186
     },
     "_enabled": true,
-    "alignMode": 1,
-    "_wasAlignOnce": null,
-    "isAlignOnce": null,
+    "alignMode": 2,
     "_target": null,
     "_alignFlags": 4,
     "_left": 0,
@@ -8253,9 +8248,7 @@
       "__id__": 28
     },
     "_enabled": true,
-    "alignMode": 1,
-    "_wasAlignOnce": null,
-    "isAlignOnce": null,
+    "alignMode": 2,
     "_target": null,
     "_alignFlags": 45,
     "_left": 0,
@@ -17874,8 +17867,8 @@
     "target": {
       "__id__": 16
     },
-    "component": "HomeUI",
-    "_componentId": "",
+    "component": "",
+    "_componentId": "80382PDGl1Jf4nvzaq1gyOV",
     "handler": "gotoHome",
     "customEventData": ""
   },
@@ -18536,8 +18529,8 @@
     "target": {
       "__id__": 16
     },
-    "component": "HomeUI",
-    "_componentId": "",
+    "component": "",
+    "_componentId": "80382PDGl1Jf4nvzaq1gyOV",
     "handler": "gotoShop",
     "customEventData": ""
   },
@@ -19223,5 +19216,22 @@
     "_fitWidth": true,
     "_fitHeight": false,
     "_id": "77UJ4UT1pLOJRwflNE6e7s"
+  },
+  {
+    "__type__": "221183HlFFC8a1pFSY4mraA",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "PREFAB": {
+      "__uuid__": "d94ae41f-b856-4543-a185-f6b1b855c6da"
+    },
+    "parent": {
+      "__id__": 2
+    },
+    "zIndex": 9999,
+    "_id": "59T0Lnfs9Pr5TVRcddzjhh"
   }
 ]
