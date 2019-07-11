@@ -102,10 +102,15 @@ let GodGuide = cc.Class({
             this._text.active = false;
         }
 
+       
+
         //调试工具界面
         this._debugNode = this.node.getChildByName('debug');
         
-
+        //自动引导切换
+        this._autorun = this._debugNode.getComponentInChildren(cc.Toggle);
+        this._autorun.isChecked = false;
+        
 
         //获取遮罩组件 
         this._mask = this.node.getComponentInChildren(cc.Mask);
@@ -163,6 +168,7 @@ let GodGuide = cc.Class({
         }
         
         this._debugNode.active = !!task.debug;
+        this._autorun.isChecked = !!task.autorun;
         this._task = task;
     },
 
@@ -224,7 +230,7 @@ let GodGuide = cc.Class({
                 this._mask._graphics.clear();
                 this._finger.active = false;
                 if (step.onEnd) {
-                    task.onEnd(() => { cb() });
+                    step.onEnd(() => { cb() });
                 } else {
                     cb();
                 }
@@ -367,7 +373,13 @@ let GodGuide = cc.Class({
      * 录制节点触摸
      */
     startRecordNodeTouch() {
+        if (this._task) {
+            cc.warn(`任务引导中，不能录制`);
+            return;
+        }
+
         if (this._dispatchEvent) {
+            cc.warn('已经进入录制模式');
             return;
         }
 
@@ -405,6 +417,9 @@ let GodGuide = cc.Class({
         if (this._dispatchEvent) {
             cc.Node.prototype.dispatchEvent = this._dispatchEvent;
             this._dispatchEvent = null;
+            cc.warn('退出录制状态');
+        } else {
+            cc.warn('未进入录制状态');
         }
     },
 
@@ -414,7 +429,7 @@ let GodGuide = cc.Class({
     playRecordNodeTouch(sender, autorun) {
         this.stopRecordNodeTouch();
         if (this._recordSteps && this._recordSteps.length) {
-            cc.log('steps\n', JSON.stringify(this._recordSteps));
+            cc.log('生成任务：', JSON.stringify(this._recordSteps));
             let task = {
                 autorun: !!autorun,
                 debug: true,
@@ -431,6 +446,12 @@ let GodGuide = cc.Class({
         this._text.once('click', callback);
         let godText = this._text.getComponent(this.TEXT_PREFAB.name);
         godText.text = text;
+    },
+
+    setAutorun() {
+        if (this._task) {
+            this._task.autorun = !this._task.autorun;
+        }
     }
 });
 

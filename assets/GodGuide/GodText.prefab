@@ -105,7 +105,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 60.06,
+      "width": 547.03,
       "height": 40
     },
     "_anchorPoint": {
@@ -148,8 +148,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "123",
-    "_N$string": "123",
+    "_string": "文本提示",
+    "_N$string": "文本提示",
     "_fontSize": 36,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -160,7 +160,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 0,
+    "_N$overflow": 3,
     "_N$cacheMode": 0,
     "_id": ""
   },
