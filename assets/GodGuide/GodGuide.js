@@ -135,7 +135,7 @@ let GodGuide = cc.Class({
             if (this._text.active) {
                 this._text.active = false;
                 this._text.emit('click');
-                this.node._touchListener.setSwallowTouches(false);
+                this.node._touchListener.setSwallowTouches(true);
                 return;
             }
 
@@ -259,7 +259,7 @@ let GodGuide = cc.Class({
         let moveTo = cc.moveTo(duration, p);
         let callFunc = cc.callFunc(() => {
             cb();
-        })
+        });
         
         let sequnce = cc.sequence(moveTo, callFunc);
         this._finger.runAction(sequnce);

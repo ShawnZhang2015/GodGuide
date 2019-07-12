@@ -26,11 +26,12 @@ let GodCommand = {
     //定位节点，显示一个手指动画
     finger(godGuide, step, callback) {
         let { args } = step.command;
+        godGuide._targetNode = null;
         //定位节点
         godGuide.find(args, (node) => {
-            godGuide._targetNode = node;
             //手指动画
             godGuide.fingerToNode(node, () => {
+                godGuide._targetNode = node;
                 //点击确认
                 node.once(cc.Node.EventType.TOUCH_END, () => {
                     cc.log('节点被点击');
