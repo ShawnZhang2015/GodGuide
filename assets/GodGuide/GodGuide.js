@@ -131,14 +131,6 @@ let GodGuide = cc.Class({
                 return;
             }
 
-            //文本提示
-            if (this._text.active) {
-                this._text.active = false;
-                this._text.emit('click');
-                this.node._touchListener.setSwallowTouches(true);
-                return;
-            }
-
             //目标节点不存在，拦截
             if (!this._targetNode) {
                 this.node._touchListener.setSwallowTouches(true);
@@ -156,6 +148,7 @@ let GodGuide = cc.Class({
             }
         }, this);
     },
+
 
     start() {
         cc.debug.setDisplayStats(false);

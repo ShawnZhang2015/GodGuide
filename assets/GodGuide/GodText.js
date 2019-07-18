@@ -12,10 +12,15 @@ cc.Class({
     },
 
     start() {
-        // this.node.on(cc.Node.EventType.TOUCH_END, () => {
-        //     this.node.emit('click');
-        //     //this.node.active = false;
-        // }, this);
+        this.node.on(cc.Node.EventType.TOUCH_START, () => {
+            this.node._touchListener.setSwallowTouches(false);
+            //隐藏文本提示
+            if (this.node.active) {
+                this.node.active = false;
+                this.node.emit('click');
+                return;
+            }
+        });
     },
 
     _updateContent() {
