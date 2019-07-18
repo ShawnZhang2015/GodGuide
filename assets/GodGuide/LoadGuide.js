@@ -1,14 +1,13 @@
 
-let task1 = require('task1');
+//let task1 = require('task1');
 
 cc.Class({
-    
-
     extends: cc.Component,
     properties: {
         PREFAB: cc.Prefab, //预制件
         parent: cc.Node,   //预制件实例化后所在的父节点
         zIndex: 0,
+        tasks: [cc.String],
     },
 
     onLoad() {
@@ -38,7 +37,12 @@ cc.Class({
     },
 
     runTask() {
-        this._godGuide.setTask(task1);   
-        this._godGuide.run(); 
+        async.eachSeries(this.tasks, (taskFile, cb) => {
+            let task = require(taskFile);
+            this._godGuide.setTask(task);   
+            this._godGuide.run(cb);   
+        }, () => {
+            cc.log('任务全部完成');
+        });
     }
 });

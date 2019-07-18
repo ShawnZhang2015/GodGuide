@@ -102,8 +102,6 @@ let GodGuide = cc.Class({
             this._text.active = false;
         }
 
-       
-
         //调试工具界面
         this._debugNode = this.node.getChildByName('debug');
         
@@ -115,6 +113,7 @@ let GodGuide = cc.Class({
         //获取遮罩组件 
         this._mask = this.node.getComponentInChildren(cc.Mask);
         this._mask.inverted = true;
+        this._mask.node.active = false;
 
         //监听事件
         this.node.on(cc.Node.EventType.TOUCH_START, (event) => {
@@ -122,7 +121,7 @@ let GodGuide = cc.Class({
             //录制中，放行
             if (this._dispatchEvent) {
                 this.node._touchListener.setSwallowTouches(false);
-                return;    
+                return;
             }
 
             //放行
@@ -169,11 +168,10 @@ let GodGuide = cc.Class({
         return this._task;
     },
 
-    run() {
+    run(callback) {
         if (!this._task) {
             return;
         }
-        this._mask.node.active = this._task.mask || true;
          
         async.eachSeries(this._task.steps, (step, cb) => {
             this._processStep(step, cb);
@@ -183,6 +181,10 @@ let GodGuide = cc.Class({
             this._mask.node.active = false;
             if (this._finger) {
                 this._finger.active = false;    
+            }
+            
+            if (callback) {
+                callback();
             }
         });
     },
@@ -211,6 +213,7 @@ let GodGuide = cc.Class({
 
             //任务指令
             stepCommand: (cb) =>  {
+                this._mask.node.active = this._task.mask || true;
                 this.scheduleOnce(() => {
                     this._processStepCommand(step, () => {
                         cb();
@@ -392,7 +395,9 @@ let GodGuide = cc.Class({
             }
             //仅缓存对节点的TouchEnd操作
             if (event.type === cc.Node.EventType.TOUCH_END) {
-                let delayTime = (Date.now() - time) / 1000;
+                let now = Date.now();
+                let delayTime = (now - time) / 1000;
+                time = now;
                 let args = self.getNodeFullPath(this);
                 self._recordSteps.push({
                     desc: `点击${args}`,

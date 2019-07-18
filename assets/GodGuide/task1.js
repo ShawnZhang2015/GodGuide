@@ -68,5 +68,10 @@ module.exports = {
             command: { cmd: GodCommand.FINGER, args: 'chargePanel > btn_close'},
             delayTime: 0.5
         },
+
+        {
+            desc: '回到主页',
+            command: { cmd: GodCommand.FINGER, args: 'Home > main_btns > btn_home'},
+        },
     ]
 };

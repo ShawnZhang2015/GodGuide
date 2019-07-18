@@ -63,6 +63,13 @@ cc.Class({
         }
     },
 
+    /**
+     * 模拟引导任务Task2触发
+     */
+    message() {
+        cc.director.emit('task2');
+    }
+
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {
 

@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
+      "x": 0.36875,
+      "y": 0.36875,
       "z": 1
     },
     "_quat": {
@@ -690,7 +690,7 @@
         "__id__": 194
       },
       {
-        "__id__": 264
+        "__id__": 265
       }
     ],
     "_active": true,
@@ -8343,7 +8343,7 @@
     "_level": 0,
     "_components": [
       {
-        "__id__": 263
+        "__id__": 264
       }
     ],
     "_prefab": null,
@@ -10979,7 +10979,7 @@
         "__id__": 261
       },
       {
-        "__id__": 262
+        "__id__": 263
       }
     ],
     "_prefab": null,
@@ -11092,7 +11092,11 @@
     "_enabled": true,
     "duration": 0.1,
     "zoomScale": 1.2,
-    "clickEvents": [],
+    "clickEvents": [
+      {
+        "__id__": 262
+      }
+    ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
     "_N$transition": 0,
@@ -11163,6 +11167,16 @@
     "_id": "a9MIxdMylHR5ub6kwmaijZ"
   },
   {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 16
+    },
+    "component": "",
+    "_componentId": "80382PDGl1Jf4nvzaq1gyOV",
+    "handler": "message",
+    "customEventData": ""
+  },
+  {
     "__type__": "f5d10E3oQ9G/LlvNZly0S2Y",
     "_name": "",
     "_objFlags": 0,
@@ -11210,7 +11224,7 @@
     },
     "_children": [
       {
-        "__id__": 265
+        "__id__": 266
       },
       {
         "__id__": 411
@@ -11273,11 +11287,11 @@
     "_name": "sub_btns",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 264
+      "__id__": 265
     },
     "_children": [
       {
-        "__id__": 266
+        "__id__": 267
       },
       {
         "__id__": 283
@@ -11349,14 +11363,14 @@
     "_name": "btn_expand_slot",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 265
+      "__id__": 266
     },
     "_children": [
       {
-        "__id__": 267
+        "__id__": 268
       },
       {
-        "__id__": 273
+        "__id__": 274
       }
     ],
     "_active": true,
@@ -11416,21 +11430,21 @@
     "_name": "btn_expand",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 266
+      "__id__": 267
     },
     "_children": [
       {
-        "__id__": 268
+        "__id__": 269
       }
     ],
     "_active": true,
     "_level": 0,
     "_components": [
       {
-        "__id__": 270
+        "__id__": 271
       },
       {
-        "__id__": 272
+        "__id__": 273
       }
     ],
     "_prefab": null,
@@ -11483,14 +11497,14 @@
     "_name": "bg",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 267
+      "__id__": 268
     },
     "_children": [],
     "_active": true,
     "_level": 0,
     "_components": [
       {
-        "__id__": 269
+        "__id__": 270
       }
     ],
     "_prefab": null,
@@ -11543,7 +11557,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 268
+      "__id__": 269
     },
     "_enabled": true,
     "_srcBlendFactor": 770,
@@ -11571,14 +11585,14 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 267
+      "__id__": 268
     },
     "_enabled": true,
     "duration": 0.1,
     "zoomScale": 1.2,
     "clickEvents": [
       {
-        "__id__": 271
+        "__id__": 272
       }
     ],
     "_N$interactable": true,
@@ -11634,17 +11648,17 @@
     "hoverSprite": null,
     "_N$disabledSprite": null,
     "_N$target": {
-      "__id__": 267
+      "__id__": 268
     },
     "_id": "06qi5q3+dAa6qG5z+OYMfc"
   },
   {
     "__type__": "cc.ClickEvent",
     "target": {
-      "__id__": 265
+      "__id__": 266
     },
-    "component": "SubBtnsUI",
-    "_componentId": "",
+    "component": "",
+    "_componentId": "6907fq75H1EIrLmj/AFBg+B",
     "handler": "showSubBtns",
     "customEventData": ""
   },
@@ -11653,7 +11667,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 267
+      "__id__": 268
     },
     "_enabled": true,
     "pressedScale": 0.8,
@@ -11665,11 +11679,11 @@
     "_name": "btn_fold",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 266
+      "__id__": 267
     },
     "_children": [
       {
-        "__id__": 274
+        "__id__": 275
       }
     ],
     "_active": true,
@@ -11732,17 +11746,17 @@
     "_name": "bg",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 273
+      "__id__": 274
     },
     "_children": [],
     "_active": true,
     "_level": 0,
     "_components": [
       {
-        "__id__": 275
+        "__id__": 276
       },
       {
-        "__id__": 276
+        "__id__": 277
       },
       {
         "__id__": 278
@@ -11798,7 +11812,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 274
+      "__id__": 275
     },
     "_enabled": true,
     "_srcBlendFactor": 770,
@@ -11826,16 +11840,12 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 274
+      "__id__": 275
     },
-    "_enabled": true,
+    "_enabled": false,
     "duration": 0.1,
     "zoomScale": 1.2,
-    "clickEvents": [
-      {
-        "__id__": 277
-      }
-    ],
+    "clickEvents": [],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
     "_N$transition": 0,
@@ -11889,26 +11899,16 @@
     "hoverSprite": null,
     "_N$disabledSprite": null,
     "_N$target": {
-      "__id__": 274
+      "__id__": 275
     },
     "_id": "b6LhR5D8lETYWv9qDNgNFA"
-  },
-  {
-    "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 16
-    },
-    "component": "HomeUI",
-    "_componentId": "",
-    "handler": "hideSubBtns",
-    "customEventData": ""
   },
   {
     "__type__": "f5d10E3oQ9G/LlvNZly0S2Y",
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 274
+      "__id__": 275
     },
     "_enabled": true,
     "pressedScale": 0.8,
@@ -11920,7 +11920,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 273
+      "__id__": 274
     },
     "_enabled": true,
     "duration": 0.1,
@@ -11983,17 +11983,17 @@
     "hoverSprite": null,
     "_N$disabledSprite": null,
     "_N$target": {
-      "__id__": 273
+      "__id__": 274
     },
     "_id": "6enMc/y8ZKOI1BbSB3lwoB"
   },
   {
     "__type__": "cc.ClickEvent",
     "target": {
-      "__id__": 265
+      "__id__": 266
     },
-    "component": "SubBtnsUI",
-    "_componentId": "",
+    "component": "",
+    "_componentId": "6907fq75H1EIrLmj/AFBg+B",
     "handler": "hideSubBtns",
     "customEventData": ""
   },
@@ -12002,7 +12002,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 273
+      "__id__": 274
     },
     "_enabled": true,
     "pressedScale": 0.8,
@@ -12014,7 +12014,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 266
+      "__id__": 267
     },
     "_enabled": true,
     "_srcBlendFactor": 770,
@@ -12042,7 +12042,7 @@
     "_name": "layout",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 265
+      "__id__": 266
     },
     "_children": [
       {
@@ -17413,7 +17413,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 265
+      "__id__": 266
     },
     "_enabled": true,
     "_srcBlendFactor": 770,
@@ -17441,7 +17441,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 265
+      "__id__": 266
     },
     "_enabled": true,
     "alignMode": 2,
@@ -17468,7 +17468,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 265
+      "__id__": 266
     },
     "_enabled": true,
     "_defaultClip": null,
@@ -17488,14 +17488,14 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 265
+      "__id__": 266
     },
     "_enabled": true,
     "subBtnsAnim": {
       "__id__": 409
     },
     "btnShowSub": {
-      "__id__": 270
+      "__id__": 271
     },
     "btnHideSub": {
       "__id__": 279
@@ -17510,7 +17510,7 @@
     "_name": "main_btns",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 264
+      "__id__": 265
     },
     "_children": [
       {
@@ -19098,7 +19098,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 264
+      "__id__": 265
     },
     "_enabled": true,
     "alignMode": 2,
@@ -19156,7 +19156,7 @@
     },
     "homeBtnGroups": [
       {
-        "__id__": 264
+        "__id__": 265
       },
       {
         "__id__": 194
@@ -19232,6 +19232,10 @@
       "__id__": 2
     },
     "zIndex": 9999,
+    "tasks": [
+      "task1",
+      "task2"
+    ],
     "_id": "59T0Lnfs9Pr5TVRcddzjhh"
   }
 ]
