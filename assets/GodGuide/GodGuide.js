@@ -1,3 +1,4 @@
+let async = require('async');
 let locator = require('locator');
 let godCommand = require('GodCommand');
 
@@ -22,6 +23,10 @@ function getRectRotatePoints(rect, angle, pt) {
 }
 
 function touchSimulation(x, y) {
+    if (!cc.sys.isBrowser) {
+        cc.log('非浏览器环境，退出touchSimulation');
+        return;
+    }
     let canvas = document.getElementById("GameCanvas");
     let rect = _cc.inputManager.getHTMLElementPosition(canvas);//getHTMLElementPosition(canvas);
     let viewSize = cc.view.getViewportRect().size;

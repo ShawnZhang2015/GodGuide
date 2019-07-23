@@ -1,5 +1,6 @@
 
 //let task1 = require('task1');
+let async = require('async');
 
 cc.Class({
     extends: cc.Component,

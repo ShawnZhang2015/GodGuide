@@ -1,6 +1,7 @@
 /**
  * zxh
  */
+let async = require('async');
 
 let GodCommand = {
     //定位节点
