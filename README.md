@@ -1,5 +1,8 @@
 # GodGuide
 
+#### 特别鸣谢
+- 感谢「黝黑蜗壳」提供的GodGuide引导框架的TypeScript版本
+
 #### 介绍
 Cocos Creator 新手引导框架，支持浏览器自动引导，流程录制与回放，可实现自动化测试！
 
