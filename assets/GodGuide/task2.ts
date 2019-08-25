@@ -1,7 +1,8 @@
-module.exports = {
+
+export const task2 = {
     name: '进入背包',
     debug: true,
-    autorun: false,
+    autorun: true,
     steps: [
         {
             onStart(callback) {

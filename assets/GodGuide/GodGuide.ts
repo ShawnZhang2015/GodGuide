@@ -1,6 +1,6 @@
 let async = require('async');
-let locator = require('locator');
-let godCommand = require('GodCommand');
+import { GodCommand } from "./GodCommand";
+import { Locator } from "./Locator";
 
 const RADIAN = 2 * Math.PI / 360;
 
@@ -8,7 +8,7 @@ function getRotatePoint(p, angle, center) {
     let out = cc.v2();
     let radian = -angle * RADIAN;
     out.x = (p.x - center.x) * Math.cos(radian) - (p.y - center.y) * Math.sin(radian) + center.x;
-    out.y = (p.x - center.x) * Math.sin(radian) + (p.y - center.y) * Math.cos(radian) + center.y;   
+    out.y = (p.x - center.x) * Math.sin(radian) + (p.y - center.y) * Math.cos(radian) + center.y;
     return out;
 }
 
@@ -28,9 +28,9 @@ function touchSimulation(x, y) {
         return;
     }
     let canvas = document.getElementById("GameCanvas");
-    let rect = _cc.inputManager.getHTMLElementPosition(canvas);//getHTMLElementPosition(canvas);
+    let rect = window['_cc'].inputManager.getHTMLElementPosition(canvas);//getHTMLElementPosition(canvas);
     let viewSize = cc.view.getViewportRect().size;
-    let pt = cc.v2(x * cc.view._scaleX + rect.left, rect.top + viewSize.height - y * cc.view._scaleX);
+    let pt = cc.v2(x * cc.view['_scaleX'] + rect.left, rect.top + viewSize.height - y * cc.view['_scaleX']);
     cc.log(`模拟点击坐标：${pt.x}, ${pt.y}`);
 
     let click = document.createEvent("MouseEvents");
@@ -43,43 +43,50 @@ function touchSimulation(x, y) {
     }, 500);
 }
 
-//---------------------------
-let GodGuide = cc.Class({
-    extends: cc.Component,
-    properties: {
-        _selector: '',
-        selector: {
-            get() {
-                return this._selector;
-            },
-            
-            set(value) {
-                this._selector = value;
-                this.find(value);
-            },
-        },
+const { ccclass, property } = cc._decorator;
+@ccclass
+export default class GodGuide extends cc.Component {
 
-        type: {
-            default: cc.Mask.Type.RECT,
-            type: cc.Mask.Type,
-        },
+    // @property(cc.Label)
+    // label: cc.Label = null;
 
-        FINGER_PREFAB: cc.Prefab,   //手指提示
-        TEXT_PREFAB: cc.Prefab,     //文本提示
-    },
+    _selector: string = '';
+    get selector(): string {
+        return this._selector;
+    }
+    set selector(value: string) {
+        this._selector = value;
+        this.find(value);
+    }
 
-    statics: {
-        find(path, cb) {
-            let root = cc.find('Canvas');
-            locator.locateNode(root, path, cb);
-        },
-    },
+    type: {
+        default: cc.Mask.Type.RECT;
+        type: cc.Mask.Type;
+    }
+
+    @property(cc.Prefab)
+    FINGER_PREFAB: cc.Prefab = null;
+
+    @property(cc.Prefab)
+    TEXT_PREFAB: cc.Prefab = null;
+
+    GodGuide: any;
+    _targetNode: any;
+    _finger: cc.Node;
+    _text: cc.Node;
+    _dialogue: cc.Node;
+    _debugNode: cc.Node;
+    _autorun: cc.Toggle;
+    _mask: cc.Mask;
+    _dispatchEvent: any;
+    _task: any;
+    _recordSteps: any[];
 
     onLoad() {
         this.init();
-        window.GodGuide = this;
-    },
-    
+        this.GodGuide = this;
+    }
+
     touchSimulation(node) {
         this.log('自动执行，模拟触摸');
         this.scheduleOnce(() => {
@@ -88,7 +95,7 @@ let GodGuide = cc.Class({
             cc.log('世界节点 :', JSON.stringify(p));
             touchSimulation(p.x, p.y);
         }, 1);
-    },
+    }
 
     init() {
         this.node.setContentSize(cc.winSize);
@@ -109,11 +116,11 @@ let GodGuide = cc.Class({
 
         //调试工具界面
         this._debugNode = this.node.getChildByName('debug');
-        
+
         //自动引导切换
         this._autorun = this._debugNode.getComponentInChildren(cc.Toggle);
         this._autorun.isChecked = false;
-        
+
 
         //获取遮罩组件 
         this._mask = this.node.getComponentInChildren(cc.Mask);
@@ -122,7 +129,7 @@ let GodGuide = cc.Class({
 
         //监听事件
         this.node.on(cc.Node.EventType.TOUCH_START, (event) => {
-            
+
             //录制中，放行
             if (this._dispatchEvent) {
                 this.node._touchListener.setSwallowTouches(false);
@@ -151,33 +158,33 @@ let GodGuide = cc.Class({
                 cc.log('未命中目标节点，拦截');
             }
         }, this);
-    },
+    }
 
 
     start() {
         cc.debug.setDisplayStats(false);
-    },
+    }
 
     setTask(task) {
         if (this._task) {
             cc.warn('当前任务还未处理完毕！');
             return;
         }
-        
+
         this._debugNode.active = !!task.debug;
         this._autorun.isChecked = !!task.autorun;
         this._task = task;
-    },
+    }
 
     getTask() {
         return this._task;
-    },
+    }
 
-    run(callback) {
+    run(callback?) {
         if (!this._task) {
             return;
         }
-         
+        console.log('this._task.steps---------->', this._task.steps)
         async.eachSeries(this._task.steps, (step, cb) => {
             this._processStep(step, cb);
         }, () => {
@@ -185,25 +192,25 @@ let GodGuide = cc.Class({
             cc.log('任务结束');
             this._mask.node.active = false;
             if (this._finger) {
-                this._finger.active = false;    
+                this._finger.active = false;
             }
-            
+
             if (callback) {
                 callback();
             }
         });
-    },
+    }
 
     fillPoints(points) {
         let p0 = points[0];
         this._mask._graphics.moveTo(p0.x, p0.y);
-        points.slice(1).forEach( p => {
+        points.slice(1).forEach(p => {
             this._mask._graphics.lineTo(p.x, p.y);
         });
         this._mask._graphics.lineTo(p0.x, p0.y);
         this._mask._graphics.stroke();
         this._mask._graphics.fill();
-    },
+    }
 
     _processStep(step, callback) {
         async.series({
@@ -217,13 +224,13 @@ let GodGuide = cc.Class({
             },
 
             //任务指令
-            stepCommand: (cb) =>  {
+            stepCommand: (cb) => {
                 this._mask.node.active = this._task.mask || true;
                 this.scheduleOnce(() => {
                     this._processStepCommand(step, () => {
                         cb();
                     });
-                }, step.delayTime || 0);  
+                }, step.delay || 0);
             },
 
             //任务结束
@@ -240,7 +247,7 @@ let GodGuide = cc.Class({
             this.log(`步骤【${step.desc}】结束！`);
             callback();
         })
-    },
+    }
 
     /**
      * 手指动画
@@ -261,16 +268,16 @@ let GodGuide = cc.Class({
         let callFunc = cc.callFunc(() => {
             cb();
         });
-        
+
         let sequnce = cc.sequence(moveTo, callFunc);
         this._finger.runAction(sequnce);
-    },
+    }
 
     log(text) {
         if (this._task.debug) {
             cc.log(text);
         }
-    },
+    }
 
     /**
      * 处理步骤指令
@@ -278,11 +285,11 @@ let GodGuide = cc.Class({
      * @param {*} cb 
      */
     _processStepCommand(step, cb) {
-        
-        let cmd = godCommand[step.command.cmd];
+
+        let cmd = GodCommand[step.command.cmd];
         if (cmd) {
             this.log(`执行步骤【${step.desc}】指令: ${step.command.cmd}`);
-            cmd(this, step, () => { 
+            cmd(this, step, () => {
                 this.log(`步骤【${step.desc}】指令: ${step.command.cmd} 执行完毕`);
                 cb();
             });
@@ -290,11 +297,11 @@ let GodGuide = cc.Class({
             this.log(`执行步骤【${step.desc}】指令: ${step.command.cmd} 不存在！`);
             cb();
         }
-    },
+    }
 
-    find(value, cb) {
+    find(value, cb?) {
         let root = cc.find('Canvas');
-        locator.locateNode(root, value, (error, node) => {
+        Locator.locateNode(root, value, (error, node) => {
             if (error) {
                 cc.log(error);
                 return;
@@ -305,39 +312,39 @@ let GodGuide = cc.Class({
                 cb(node, rect);
             }
         });
-    },
+    }
 
     locateNodeByEvent(sender) {
-        this.selector = sender.string;
-    },
+        this._selector = sender.string;
+    }
 
     getNodePoints(rect, angle, pt) {
         return getRectRotatePoints(rect, angle, pt).map(p => {
             return p;
         });
-    },
+    }
 
     fillPolygon(points) {
         let p0 = points[0];
         this._mask._graphics.moveTo(p0.x, p0.y);
-        points.slice(1).forEach( p => {
+        points.slice(1).forEach(p => {
             this._mask._graphics.lineTo(p.x, p.y);
         });
         this._mask._graphics.lineTo(p0.x, p0.y);
         this._mask._graphics.stroke();
         this._mask._graphics.fill();
-    },
+    }
 
     _focusToNode(node) {
         this._mask._graphics.clear();
         let rect = node.getBoundingBoxToWorld();
-        let p = this.node.convertToNodeSpaceAR(rect.origin);   
+        let p = this.node.convertToNodeSpaceAR(rect.origin);
         rect.x = p.x;
         rect.y = p.y;
 
         this._mask._graphics.fillRect(rect.x, rect.y, rect.width, rect.height);
         return rect;
-    },
+    }
 
     /**
      * 获取节点全路径
@@ -349,9 +356,9 @@ let GodGuide = cc.Class({
         do {
             array.unshift(temp.name);
             temp = temp.parent;
-        } while(temp && temp.name !== 'Canvas')
+        } while (temp && temp.name !== 'Canvas')
         return array.join('/');
-    },
+    }
 
     /**
      * 是否为引导层节点
@@ -364,11 +371,11 @@ let GodGuide = cc.Class({
             if (temp === this.node) {
                 result = true;
                 break;
-            }           
-        } while(temp = temp.parent)
+            }
+        } while (temp = temp.parent)
 
         return result;
-    },
+    }
 
     /**
      * 录制节点触摸
@@ -391,9 +398,9 @@ let GodGuide = cc.Class({
         let self = this;
         let time = Date.now();
         //Hook节点事件派发函数
-        cc.Node.prototype.dispatchEvent = function(event) {
+        cc.Node.prototype.dispatchEvent = function (event) {
             //执行引擎原生触摸派发函数
-            self._dispatchEvent.call(this, event);  
+            self._dispatchEvent.call(this, event);
             //过滤掉引导节点上的事件，
             if (self.isGuideNode(this)) {
                 return;
@@ -401,17 +408,17 @@ let GodGuide = cc.Class({
             //仅缓存对节点的TouchEnd操作
             if (event.type === cc.Node.EventType.TOUCH_END) {
                 let now = Date.now();
-                let delayTime = (now - time) / 1000;
+                let delay = (now - time) / 1000;
                 time = now;
                 let args = self.getNodeFullPath(this);
                 self._recordSteps.push({
                     desc: `点击${args}`,
                     command: { cmd: 'finger', args },
-                    delayTime,
+                    delay,
                 });
             }
         }
-    },
+    }
 
     /**
      * 停止节点触摸录制
@@ -424,7 +431,7 @@ let GodGuide = cc.Class({
         } else {
             cc.warn('未进入录制状态');
         }
-    },
+    }
 
     /**
      * 回放录制
@@ -442,20 +449,21 @@ let GodGuide = cc.Class({
             this.setTask(task);
             this.run();
         }
-    },
+    }
 
     //显示文本
     showText(text, callback) {
         this._text.once('click', callback);
         let godText = this._text.getComponent(this.TEXT_PREFAB.name);
-        godText.text = text;
-    },
+        godText.setText(text, callback);
+    }
 
     setAutorun() {
         if (this._task) {
             this._task.autorun = !this._task.autorun;
         }
     }
-});
-
-module.exports = GodGuide;
+    close() {
+        this.node.active = false;
+    }
+}
