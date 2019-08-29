@@ -1,7 +1,7 @@
-export const task1 = {
+export const task = {
     name: '进入商店',
     debug: true,
-    autorun: false,
+    autorun: true,
     steps: [
         {
             desc: '文本提示',

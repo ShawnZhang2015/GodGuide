@@ -29,8 +29,15 @@ function touchSimulation(x, y) {
     }
     let canvas = document.getElementById("GameCanvas");
     let rect = window['_cc'].inputManager.getHTMLElementPosition(canvas);//getHTMLElementPosition(canvas);
-    let viewSize = cc.view.getViewportRect().size;
-    let pt = cc.v2(x * cc.view['_scaleX'] + rect.left, rect.top + viewSize.height - y * cc.view['_scaleX']);
+  
+    let vp = cc.view.getViewportRect();
+    let sx = cc.view.getScaleX();
+    let sy = cc.view.getScaleY();
+    let ratio = cc.view.getDevicePixelRatio();
+    let htmlx = (x * sx  + vp.x) / ratio + rect.left;
+    let htmly = rect.top + rect.height - (y * sy + vp.y) / ratio;
+    let pt = cc.v2(htmlx, htmly);
+
     cc.log(`模拟点击坐标：${pt.x}, ${pt.y}`);
 
     let click = document.createEvent("MouseEvents");
@@ -76,7 +83,7 @@ export default class GodGuide extends cc.Component {
     _text: cc.Node;
     _dialogue: cc.Node;
     _debugNode: cc.Node;
-    _autorun: cc.Toggle;
+    _autorun: cc.Label;
     _mask: cc.Mask;
     _dispatchEvent: any;
     _task: any;
@@ -118,8 +125,8 @@ export default class GodGuide extends cc.Component {
         this._debugNode = this.node.getChildByName('debug');
 
         //自动引导切换
-        this._autorun = this._debugNode.getComponentInChildren(cc.Toggle);
-        this._autorun.isChecked = false;
+        this._autorun = cc.find('autorun/Background/Label', this._debugNode).getComponent(cc.Label);
+        this._autorun.string = `自动执行（关）`;
 
 
         //获取遮罩组件 
@@ -172,7 +179,7 @@ export default class GodGuide extends cc.Component {
         }
 
         this._debugNode.active = !!task.debug;
-        this._autorun.isChecked = !!task.autorun;
+        this._autorun.string = `自动执行(${task.autorun ? '开' : '关'})`;
         this._task = task;
     }
 
@@ -461,8 +468,10 @@ export default class GodGuide extends cc.Component {
     setAutorun() {
         if (this._task) {
             this._task.autorun = !this._task.autorun;
+            this._autorun.string = `自动执行(${this._task.autorun ? '开' : '关'})`;
         }
     }
+    
     close() {
         this.node.active = false;
     }

@@ -1,5 +1,5 @@
 
-export const task2 = {
+export const task = {
     name: '进入背包',
     debug: true,
     autorun: true,

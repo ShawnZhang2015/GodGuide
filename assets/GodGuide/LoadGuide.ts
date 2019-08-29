@@ -1,6 +1,6 @@
 import GodGuide from "./GodGuide";
-import { task1 } from "./task1";
-import { task2 } from "./task2";
+// import { task1 } from "./task1";
+// import { task2 } from "./task2";
 
 //let task1 = require('task1');
 let async = require('async');
@@ -70,7 +70,7 @@ export default class LoadGuide extends cc.Component {
     @property()
     zIndex = 0;
 
-    // @property([cc.String])
+    @property([cc.String])
     tasks = []
 
     _godGuide: GodGuide;
@@ -102,10 +102,9 @@ export default class LoadGuide extends cc.Component {
     }
 
     runTask() {
-        task1
-        this.tasks = [task1, task2]
-        async.eachSeries(this.tasks, (task, cb) => {
-            console.log('task---------->', task)
+        async.eachSeries(this.tasks, (taskFile, cb) => {
+            console.log('taskFile---------->', taskFile)
+            let { task } = require(taskFile);
             this._godGuide.setTask(task);
             this._godGuide.run(cb);
         }, () => {
