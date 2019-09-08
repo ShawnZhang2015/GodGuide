@@ -25,3 +25,7 @@ Cocos Creator 新手引导框架，支持浏览器自动引导，流程录制与
 #### GitChat
 
 ![Cocos Creator 项目：如何较为优雅地实现新手引导? ](https://gitee.com/ShawnZhang2019/GodGuide/raw/master/gitchat.jpg)
+
+#### 更新说明
+1. 增加typescript分支为ts版本
+2. 在浏览器、原生环境、微信小游戏上实现节点点击模拟，完成引导任务的自动执行

@@ -23,13 +23,18 @@ function getRectRotatePoints(rect, angle, pt) {
 }
 
 function touchSimulation(x, y) {
-    if (!cc.sys.isBrowser) {
-        cc.log('非浏览器环境，退出touchSimulation');
-        return;
+
+    let rect;
+    let inputManager = window['_cc'].inputManager;
+    if (cc.sys.isBrowser) {
+        let canvas = document.getElementById("GameCanvas");
+        rect = inputManager.getHTMLElementPosition(canvas);
+    } else {
+        rect = cc.view.getFrameSize();
+        rect.left = 0;
+        rect.top = 0;
     }
-    let canvas = document.getElementById("GameCanvas");
-    let rect = window['_cc'].inputManager.getHTMLElementPosition(canvas);//getHTMLElementPosition(canvas);
-  
+    
     let vp = cc.view.getViewportRect();
     let sx = cc.view.getScaleX();
     let sy = cc.view.getScaleY();
@@ -39,15 +44,20 @@ function touchSimulation(x, y) {
     let pt = cc.v2(htmlx, htmly);
 
     cc.log(`模拟点击坐标：${pt.x}, ${pt.y}`);
-
-    let click = document.createEvent("MouseEvents");
-    click.initMouseEvent("mousedown", true, true, window, 0, 0, 0, pt.x, pt.y, true, false, false, false, 0, null);
-    canvas.dispatchEvent(click);
-    setTimeout(function () {
-        let mouseup = document.createEvent("MouseEvent");
-        mouseup.initMouseEvent("mouseup", true, true, window, 0, 0, 0, pt.x, pt.y, true, false, false, false, 0, null);
-        canvas.dispatchEvent(mouseup);
-    }, 500);
+    let touch = inputManager.getTouchByXY(pt.x, pt.y, rect);
+    inputManager.handleTouchesBegin([touch]);
+    setTimeout(() => {
+        inputManager.handleTouchesEnd([touch]);    
+    }, 200);
+    
+    // let click = document.createEvent("MouseEvents");
+    // click.initMouseEvent("mousedown", true, true, window, 0, 0, 0, pt.x, pt.y, true, false, false, false, 0, null);
+    // canvas.dispatchEvent(click);
+    // setTimeout(function () {
+    //     let mouseup = document.createEvent("MouseEvent");
+    //     mouseup.initMouseEvent("mouseup", true, true, window, 0, 0, 0, pt.x, pt.y, true, false, false, false, 0, null);
+    //     canvas.dispatchEvent(mouseup);
+    // }, 500);
 }
 
 const { ccclass, property } = cc._decorator;
