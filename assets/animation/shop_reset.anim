@@ -1,0 +1,77 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "shop_reset",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 0,
+  "curveData": {
+    "paths": {
+      "mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "shop_figure": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -609,
+                -113.4
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Widget": {}
+        }
+      },
+      "shop_menu": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                155,
+                1018
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Widget": {
+            "top": [
+              {
+                "frame": 0,
+                "value": -590.5
+              }
+            ]
+          }
+        }
+      },
+      "bot_frame": {
+        "props": {},
+        "comps": {
+          "cc.Widget": {
+            "bottom": [
+              {
+                "frame": 0,
+                "value": -207
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

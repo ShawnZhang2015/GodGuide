@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "shop_intro",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.9166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 0,
+  "curveData": {
+    "paths": {
+      "mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "shop_figure": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.5,
+              "value": [
+                -609,
+                -113.4
+              ],
+              "curve": [
+                0.1,
+                0.35,
+                0.49,
+                1.62
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                -114,
+                -112.99999999999997
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Widget": {}
+        }
+      },
+      "shop_menu": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0.3333333333333333,
+              "value": 1,
+              "curve": [
+                0.22,
+                0.66,
+                0.61,
+                0.99
+              ]
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 0.8,
+              "curve": [
+                0.02,
+                0.55,
+                0.43,
+                1.92
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 1
+            }
+          ]
+        },
+        "comps": {
+          "cc.Widget": {
+            "top": [
+              {
+                "frame": 0,
+                "value": -590.5
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": -590.5,
+                "curve": [
+                  0.08,
+                  0.79,
+                  0.52,
+                  0.99
+                ]
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 122.5
+              }
+            ]
+          }
+        }
+      },
+      "bot_frame": {
+        "props": {},
+        "comps": {
+          "cc.Widget": {
+            "bottom": [
+              {
+                "frame": 0,
+                "value": -207
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": -207,
+                "curve": [
+                  0.3,
+                  0.3,
+                  0.58,
+                  1.58
+                ]
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": 139
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.9166666666666666,
+      "func": "onFinishShow",
+      "params": []
+    }
+  ]
+}

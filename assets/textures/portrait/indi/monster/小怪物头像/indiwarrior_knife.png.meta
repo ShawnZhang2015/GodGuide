@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "4d2cd84d-fde9-498d-8261-68f590bc9b09",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "indiwarrior_knife": {
+      "ver": "1.0.4",
+      "uuid": "be1e2554-9ffd-4e7e-8e87-aab04f08cb87",
+      "rawTextureUuid": "4d2cd84d-fde9-498d-8261-68f590bc9b09",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6.5,
+      "offsetY": -1.5,
+      "trimX": 34,
+      "trimY": 31,
+      "width": 95,
+      "height": 91,
+      "rawWidth": 150,
+      "rawHeight": 150,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

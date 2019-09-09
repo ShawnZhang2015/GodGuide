@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "88eca76d-decc-4ee3-bb6c-4e5204221af0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "ic_甲壳虫红": {
+      "ver": "1.0.4",
+      "uuid": "a4aaaf54-5bc6-4b7e-95eb-a6ad01e03124",
+      "rawTextureUuid": "88eca76d-decc-4ee3-bb6c-4e5204221af0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": -7,
+      "trimX": 15,
+      "trimY": 34,
+      "width": 124,
+      "height": 96,
+      "rawWidth": 150,
+      "rawHeight": 150,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "excludeScenes": [],
+  "packageName": "org.cocos2d.demo-ui",
+  "platform": "web-mobile",
+  "startScene": "de6d47e5-011f-4c10-a385-1cd318777662",
+  "startSceneUuid": "de6d47e5-011f-4c10-a385-1cd318777662",
+  "title": "demo-ui"
+}

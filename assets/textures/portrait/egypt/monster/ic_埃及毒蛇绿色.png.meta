@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "aa86a5f6-1b5d-4f39-8aac-8d4b9f646314",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "ic_埃及毒蛇绿色": {
+      "ver": "1.0.4",
+      "uuid": "74848dc2-3b0f-4128-abb9-d449fa7941bc",
+      "rawTextureUuid": "aa86a5f6-1b5d-4f39-8aac-8d4b9f646314",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": -6,
+      "trimX": 27,
+      "trimY": 41,
+      "width": 99,
+      "height": 80,
+      "rawWidth": 150,
+      "rawHeight": 150,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "611b950d-8510-45b0-bfa5-629fe88e9a78",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "ic_红炮台龟": {
+      "ver": "1.0.4",
+      "uuid": "1685d7ba-622d-4a33-8508-b3dde74df442",
+      "rawTextureUuid": "611b950d-8510-45b0-bfa5-629fe88e9a78",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": -5.5,
+      "trimX": 43,
+      "trimY": 49,
+      "width": 68,
+      "height": 63,
+      "rawWidth": 150,
+      "rawHeight": 150,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

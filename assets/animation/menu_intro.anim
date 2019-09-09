@@ -1,0 +1,89 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "menu_intro",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.3333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 0,
+  "curveData": {
+    "paths": {
+      "upper": {
+        "comps": {
+          "cc.Widget": {
+            "top": [
+              {
+                "frame": 0,
+                "value": -238,
+                "curve": [
+                  0.35,
+                  0,
+                  0.6,
+                  1.47
+                ]
+              },
+              {
+                "frame": 0.25,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "props": {}
+      },
+      "lower": {
+        "comps": {
+          "cc.Widget": {
+            "bottom": [
+              {
+                "frame": 0,
+                "value": -220,
+                "curve": [
+                  0.52,
+                  0,
+                  0.65,
+                  1.47
+                ]
+              },
+              {
+                "frame": 0.25,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "props": {}
+      },
+      "mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "loading": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

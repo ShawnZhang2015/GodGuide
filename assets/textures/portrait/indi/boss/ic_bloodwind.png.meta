@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "ic_bloodwind": {
+      "ver": "1.0.4",
+      "uuid": "83b847da-54de-4634-89d8-613f9b5d2ad0",
+      "rawTextureUuid": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2.5,
+      "offsetY": -2.5,
+      "trimX": 35,
+      "trimY": 26,
+      "width": 85,
+      "height": 103,
+      "rawWidth": 150,
+      "rawHeight": 150,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
