@@ -247,7 +247,7 @@ export default class GodGuide extends cc.Component {
                     this._processStepCommand(step, () => {
                         cb();
                     });
-                }, step.delay || 0);
+                }, step.delayTime || 0);
             },
 
             //任务结束
