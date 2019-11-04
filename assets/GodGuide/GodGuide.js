@@ -22,12 +22,45 @@ function getRectRotatePoints(rect, angle, pt) {
     return array.map(p => getRotatePoint(p, angle, pt));
 }
 
+function getHTMLElementPosition(element) {
+    var docElem = document.documentElement;
+    var leftOffset = window.pageXOffset - docElem.clientLeft;
+    var topOffset = window.pageYOffset - docElem.clientTop;
+    if (typeof element.getBoundingClientRect === 'function') {
+        var box = element.getBoundingClientRect();
+        return {
+            left: box.left + leftOffset,
+            top: box.top + topOffset,
+            width: box.width,
+            height: box.height
+        };
+    }
+    else {
+        if (element instanceof HTMLCanvasElement) {
+            return {
+                left: leftOffset,
+                top: topOffset,
+                width: element.width,
+                height: element.height
+            };
+        }
+        else {
+            return {
+                left: leftOffset,
+                top: topOffset,
+                width: parseInt(element.style.width),
+                height: parseInt(element.style.height)
+            };
+        }
+    }
+}
+
 function touchSimulation(x, y) {
     let rect;
     let inputManager = window['_cc'].inputManager;
     if (cc.sys.isBrowser) {
         let canvas = document.getElementById("GameCanvas");
-        rect = inputManager.getHTMLElementPosition(canvas);
+        rect = getHTMLElementPosition(canvas);
     } else {
         rect = cc.view.getFrameSize();
         rect.left = 0;
