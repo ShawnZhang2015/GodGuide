@@ -16,9 +16,10 @@ Cocos Creator 新手引导框架，支持浏览器自动引导，流程录制与
 
 #### 使用说明
 
-1. 使用Cocos Creator 2.0.10 打开项目
-2. 引导相关代码在assets/GodGuide目录下
-3. Task1.js 、Task2.js 为引导任务配置
+1. 演示工程为Creator 2.3.2版本
+2. 引导框架兼容 2.x.x 所有版本，低版本工程UI会有错乱请自行调整
+3. 引导相关代码在assets/GodGuide目录下
+4. Task1.js 、Task2.js 为引导任务配置
 
 #### 微信公众号
 ![Cocos Creator 项目：如何较为优雅地实现新手引导? ](https://gitee.com/ShawnZhang2019/GodGuide/raw/master/creator-star.png)
@@ -29,3 +30,4 @@ Cocos Creator 新手引导框架，支持浏览器自动引导，流程录制与
 #### 更新说明
 1. 增加typescript分支为ts版本
 2. 在浏览器、原生环境、微信小游戏上实现节点点击模拟，完成引导任务的自动执行
+3. 修复在2.3.2版本上的兼容问题
