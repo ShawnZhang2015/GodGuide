@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "a129992a-64bd-4c45-bf05-e035ed1b6279",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 83,
+  "height": 110,
+  "platformSettings": {},
   "subMetas": {
     "btn_raid": {
       "ver": "1.0.4",

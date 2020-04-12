@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "e174d60b-9c9b-4bc3-aad4-bbd8c14b2e78",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 494,
+  "height": 168,
+  "platformSettings": {},
   "subMetas": {
     "banner_goumai_ocean": {
       "ver": "1.0.4",

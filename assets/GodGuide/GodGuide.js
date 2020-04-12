@@ -57,7 +57,8 @@ function getHTMLElementPosition(element) {
 
 function touchSimulation(x, y) {
     let rect;
-    let inputManager = window['_cc'].inputManager;
+    //兼容2.2.x 与 2.3.2
+    let inputManager = window._cc ? window['_cc'].inputManager : cc.internal.inputManager;
     if (cc.sys.isBrowser) {
         let canvas = document.getElementById("GameCanvas");
         rect = getHTMLElementPosition(canvas);

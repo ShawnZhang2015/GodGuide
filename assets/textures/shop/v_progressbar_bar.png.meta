@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "79517e2c-8be9-43b2-b827-a7627668fd3e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 7,
+  "height": 104,
+  "platformSettings": {},
   "subMetas": {
     "v_progressbar_bar": {
       "ver": "1.0.4",

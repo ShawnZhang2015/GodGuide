@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "27721328-ed2d-416b-9a66-345012cff4cb",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 83,
+  "height": 65,
+  "platformSettings": {},
   "subMetas": {
     "btn_rongyu": {
       "ver": "1.0.4",

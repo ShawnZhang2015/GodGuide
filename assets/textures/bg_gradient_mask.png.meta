@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "528baa60-6d70-4e46-8cbb-bc0f97d1503e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 640,
+  "height": 591,
+  "platformSettings": {},
   "subMetas": {
     "bg_gradient_mask": {
       "ver": "1.0.4",

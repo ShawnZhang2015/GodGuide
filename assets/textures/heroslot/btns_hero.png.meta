@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "df9586cb-c875-421a-9323-3af3bc892966",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 186,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "btns_hero": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "4718c593-5368-4fa1-bd87-99495e3742a2",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 57,
+  "height": 53,
+  "platformSettings": {},
   "subMetas": {
     "icon_diamond": {
       "ver": "1.0.4",
