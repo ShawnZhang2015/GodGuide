@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "650a9e2d-9446-4ae7-9138-187849ebfa69",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 570,
+  "height": 462,
+  "platformSettings": {},
   "subMetas": {
     "bg_panel_wood": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "e8694ba4-6656-423c-940b-cf867130a097",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 494,
+  "height": 168,
+  "platformSettings": {},
   "subMetas": {
     "banner_goumai_egypt": {
       "ver": "1.0.4",

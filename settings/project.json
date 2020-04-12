@@ -20,7 +20,13 @@
     "Physics",
     "NodePool",
     "StudioComponent",
-    "Native Socket"
+    "Native Socket",
+    "Geom Utils",
+    "3D",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
   ],
   "facebook": {
     "appID": "",
@@ -44,5 +50,6 @@
     "width": 1080
   },
   "use-customize-simulator": false,
-  "use-project-simulator-setting": true
+  "use-project-simulator-setting": true,
+  "start-scene": "current"
 }

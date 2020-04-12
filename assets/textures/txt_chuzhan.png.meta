@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "af48b30b-0a6c-4117-9a19-46979c28982a",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 57,
+  "height": 35,
+  "platformSettings": {},
   "subMetas": {
     "txt_chuzhan": {
       "ver": "1.0.4",

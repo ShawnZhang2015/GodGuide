@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "05c5cd61-47b9-4736-825d-4a3e96c8bf0e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 179,
+  "height": 59,
+  "platformSettings": {},
   "subMetas": {
     "text_title_goumai": {
       "ver": "1.0.4",

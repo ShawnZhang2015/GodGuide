@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "f4f34005-226d-41fd-8f6c-9fcb3734f53d",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 56,
+  "height": 35,
+  "platformSettings": {},
   "subMetas": {
     "txt_liuyan": {
       "ver": "1.0.4",
