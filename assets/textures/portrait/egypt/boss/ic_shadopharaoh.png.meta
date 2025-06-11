@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "a65ccbfc-46b5-4c44-b9ed-14cd621166a9",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "ic_shadopharaoh": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "e8ec5c78-87e4-4d0b-8231-93d5bcba38fa",
+      "importer": "sprite-frame",
       "rawTextureUuid": "a65ccbfc-46b5-4c44-b9ed-14cd621166a9",
       "trimType": "auto",
       "trimThreshold": 1,

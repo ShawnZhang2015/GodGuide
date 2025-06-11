@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "6c1c03e7-0a86-4f2e-a2aa-605d8e33256c",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "ic_木乃伊变色": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "3a0ea46a-f2c2-47b0-881d-187880f0c65a",
+      "importer": "sprite-frame",
       "rawTextureUuid": "6c1c03e7-0a86-4f2e-a2aa-605d8e33256c",
       "trimType": "auto",
       "trimThreshold": 1,

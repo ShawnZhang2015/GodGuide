@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "1776e31a-cee2-44bb-9b29-fd18048c511e",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "ic_蛇人2": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "a7788e15-02fa-402e-a1ee-eec95017ebe4",
+      "importer": "sprite-frame",
       "rawTextureUuid": "1776e31a-cee2-44bb-9b29-fd18048c511e",
       "trimType": "auto",
       "trimThreshold": 1,

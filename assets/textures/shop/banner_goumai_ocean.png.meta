@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "e174d60b-9c9b-4bc3-aad4-bbd8c14b2e78",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "banner_goumai_ocean": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "98bc0fb2-1263-43df-852c-2674b064d689",
+      "importer": "sprite-frame",
       "rawTextureUuid": "e174d60b-9c9b-4bc3-aad4-bbd8c14b2e78",
       "trimType": "auto",
       "trimThreshold": 1,

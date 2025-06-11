@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "3590ba3b-bf53-4ea0-b01a-92b16e210665",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "sumpitaner_red": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "64722600-8233-4b99-9980-c4fb0f0675f0",
+      "importer": "sprite-frame",
       "rawTextureUuid": "3590ba3b-bf53-4ea0-b01a-92b16e210665",
       "trimType": "auto",
       "trimThreshold": 1,

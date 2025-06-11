@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "441a6473-a030-480e-b100-2f57c7d90e54",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "banner_gradient": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "79e0b15f-c944-438a-91c5-bd09c68a4d03",
+      "importer": "sprite-frame",
       "rawTextureUuid": "441a6473-a030-480e-b100-2f57c7d90e54",
       "trimType": "auto",
       "trimThreshold": 1,

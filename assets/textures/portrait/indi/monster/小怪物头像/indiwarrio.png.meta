@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "abffcd97-8f0f-4f61-a061-f5fca72d25ca",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "indiwarrio": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "41f46b5c-7dc8-4437-8d15-e5d96e63b44d",
+      "importer": "sprite-frame",
       "rawTextureUuid": "abffcd97-8f0f-4f61-a061-f5fca72d25ca",
       "trimType": "auto",
       "trimThreshold": 1,

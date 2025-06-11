@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "79bfd558-baab-416f-8c7b-fe170bb3f0e1",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "ic_土著战士": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "28e0498a-5384-459b-bd74-d18bea61a464",
+      "importer": "sprite-frame",
       "rawTextureUuid": "79bfd558-baab-416f-8c7b-fe170bb3f0e1",
       "trimType": "auto",
       "trimThreshold": 1,

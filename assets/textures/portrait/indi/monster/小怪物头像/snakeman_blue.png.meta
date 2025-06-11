@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "0a0b300b-247b-46f6-bec7-0797a42cea12",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "snakeman_blue": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "cc757f24-1590-4e82-902b-ee5dd7fa3394",
+      "importer": "sprite-frame",
       "rawTextureUuid": "0a0b300b-247b-46f6-bec7-0797a42cea12",
       "trimType": "auto",
       "trimThreshold": 1,

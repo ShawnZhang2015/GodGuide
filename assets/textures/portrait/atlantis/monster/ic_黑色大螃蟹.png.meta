@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "7325fb21-b227-4d4a-a27d-cf065689799b",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "ic_黑色大螃蟹": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "981d8fac-1817-4177-8a09-6733a1961161",
+      "importer": "sprite-frame",
       "rawTextureUuid": "7325fb21-b227-4d4a-a27d-cf065689799b",
       "trimType": "auto",
       "trimThreshold": 1,

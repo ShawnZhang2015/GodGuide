@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "d1931aa4-944e-49b6-96ce-0312591382c1",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "ic_红色塞壬女妖": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "19ef1d97-37ae-49ff-afeb-f007cd627f4f",
+      "importer": "sprite-frame",
       "rawTextureUuid": "d1931aa4-944e-49b6-96ce-0312591382c1",
       "trimType": "auto",
       "trimThreshold": 1,

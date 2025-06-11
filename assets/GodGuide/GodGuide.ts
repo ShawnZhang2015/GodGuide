@@ -1,4 +1,4 @@
-let async = require('async');
+import asyncMini from "./asyncMini";
 import { GodCommand } from "./GodCommand";
 import { Locator } from "./Locator";
 
@@ -237,7 +237,7 @@ export default class GodGuide extends cc.Component {
             return;
         }
         console.log('this._task.steps---------->', this._task.steps)
-        async.eachSeries(this._task.steps, (step, cb) => {
+        asyncMini.eachSeries(this._task.steps, (step, cb) => {
             this._processStep(step, cb);
         }, () => {
             this._task = null;
@@ -265,7 +265,7 @@ export default class GodGuide extends cc.Component {
     }
 
     _processStep(step, callback) {
-        async.series({
+        asyncMini.series({
             //任务开始
             stepStart(cb) {
                 if (step.onStart) {

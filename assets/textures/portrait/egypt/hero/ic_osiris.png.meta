@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "8967da4c-ebe7-42d7-8a89-809fada638c4",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "ic_osiris": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "42e496a8-da42-46a5-ad8c-158b2bf48bae",
+      "importer": "sprite-frame",
       "rawTextureUuid": "8967da4c-ebe7-42d7-8a89-809fada638c4",
       "trimType": "auto",
       "trimThreshold": 1,

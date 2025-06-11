@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.7",
   "uuid": "9f76084f-009a-4f33-aa6c-d08bd9a29c01",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "ic_mermaidqueen": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "43e12858-f97d-4a14-b33a-2da5fbd5e64c",
+      "importer": "sprite-frame",
       "rawTextureUuid": "9f76084f-009a-4f33-aa6c-d08bd9a29c01",
       "trimType": "auto",
       "trimThreshold": 1,
